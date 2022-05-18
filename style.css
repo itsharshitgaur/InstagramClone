@@ -4,7 +4,13 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .container {
+    position: absolute;
     display: flex;
+    flex-direction: column;
+}
+.child{
+    display: flex;
+    position: relative;
 }
 .right, .left{
     width: 50%;
@@ -12,6 +18,7 @@
 }
 .left{
     display: flex;
+    margin-right: 100px;
 }
 .im1{
     width: 300px;
@@ -28,9 +35,9 @@
     border-radius: 45px;
 }
 .ss{
-    width: 272px;
+    width: 250px;
     height: 526px;
-    margin-left: -284px;
+    margin-left: -260px;
     margin-top: 20px;
     border-radius: 35px;
 }
@@ -161,7 +168,9 @@ form .logfb{
 }
 .links{
     text-align: center;
-    margin-top: 50px;
+    margin-left: 31%;
+    margin-top: 5%;
+    width: 58%;
 }
 .lang{
     margin-top: 10px;
@@ -243,4 +252,24 @@ form .logfb{
 }
 .litelinks{
     margin-top: 250px;
+}
+@media screen and (max-width:768px) {
+    body{
+        overflow-x: hidden;
+    }
+    .left{
+        opacity: 0;
+    }
+    .right{
+        position: absolute;
+        margin-left: 8%;
+    }
+    .links{
+        width: 55%;
+        margin-left: 2%;
+        margin-top: 65px;
+    }
+    .links ul li a{
+        font-size: 12px;
+    }
 }
