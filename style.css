@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    display: flex;
+}
+.right, .left{
+    width: 50%;
+    margin-top: 45px;
+}
+.left{
+    display: flex;
+}
+.im1{
+    width: 300px;
+    height: 550px;
+    margin-left: 375px;
+    margin-top: -8px;
+    border-radius: 45px;
+}
+.im2{
+    width: 300px;
+    height: 550px;
+    margin-left: -210px;
+    margin-top: 8px;
+    border-radius: 45px;
+}
+.ss{
+    width: 272px;
+    height: 526px;
+    margin-left: -284px;
+    margin-top: 20px;
+    border-radius: 35px;
+}
+.right{
+    margin-left: 50px;
+    padding-left: auto;
+    padding-right: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+.old, .su{
+    padding: 45px 40px 0px 40px;
+    border: 1px solid #d7d3d3;
+    margin-bottom: 10px;
+}
+.old img, .su img{
+    margin-left: 45px;
+    width: 175px;
+    margin-bottom: 30px;
+}
+form input{
+    width: 255px;
+    height: 23px;
+    border: 1px solid #d7d3d3;
+    border-radius: 3px;
+    padding: 6px;
+    text-align: start;
+    font-size: 12px;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+}
+::placeholder{
+    color: #a7a5a5;
+}
+input:focus{
+    outline: none;
+}
+form button{
+    width: 268px;
+    height: 30px;
+    margin: 6px 0px 23px 0px;
+    border: none;
+    border-radius: 3px;
+    background-color: #0095f6;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+form .or{
+    margin-bottom: 27px;
+    font-size: 11px;
+    letter-spacing: 0.7px;
+    color: #8e8e8e;
+    font-weight: bolder;
+    text-align: center;
+}
+form .or hr{
+    height:1px;
+    border-width:0;
+    background-color:#e1dcdc;
+}
+form .or p{
+    margin-top: -9px;
+    margin-left: 110px;
+    background-color: white;
+    width: 50px;
+    font-size: 12px;
+}
+form .logfb{
+    font-size: 13px;
+}
+.fb{
+    margin-top: 5px;
+}
+.fb a, .fb ion-icon{
+    display: flex;
+    text-decoration: none;
+    color: #385185;
+    font-weight: bold;
+}
+.fb ion-icon{
+    margin: -3px 5px auto 46px;
+    font-size: x-large;
+}
+.pass{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 12px;
+}
+.pass a{
+    text-decoration: none;
+    color: #385185;
+    text-align: center;
+}
+.new{
+    border: 1px solid #d7d3d3;
+    padding: 20px;
+    margin-bottom: 22px;
+}
+.new p{
+    text-align: center;
+    font-size: 13px;
+}
+.new a{
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: bolder;
+}
+.getapp p{
+    font-size: 13px;
+    font-stretch: ultra-expanded;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.storeimg{
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.storeimg img{
+    width: 135px;
+}
+.asimg{
+    margin-right: 5px;
+}
+.links{
+    text-align: center;
+    margin-top: 50px;
+}
+.lang{
+    margin-top: 10px;
+}
+.links ul li, .lang p{
+    display: inline-block;
+    margin: 0px 5px;
+    color: #767474;
+    font-size: 12px;
+}
+.links ul li a{
+    text-decoration: none;
+    color: #767474;
+    font-size: 12px;
+}
+.lang{
+    margin-bottom: 55px;
+}
+.suf{
+    margin-left: 36.5rem;
+    margin-top: 37px;
+}
+.supv{
+    text-align: center;
+    color: #8e8e8e;
+    font-weight: bold;
+    margin-top: -25px;
+    font-size: 16px;
+}
+.subtn{
+    display: flex;
+    margin-top: 20px;
+}
+.subtn ion-icon{
+    margin-left: 45px;
+    margin-top: 3px;
+    font-size: x-large;
+}
+.subtn p{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.suf .or{
+    margin-bottom: 15px;
+}
+.tnc{
+    font-size: 11px;
+    color: #a7a5a5;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.tnc a{
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    color: #a7a5a5;
+}
+.lite{
+    margin-top: 12%;
+    width: 100%;
+    text-align: center;
+}
+.iglite h3{
+    letter-spacing: 0.6px;
+}
+.iglogo{
+    width: 65px;
+}
+.downlite, .litep{
+    margin-top: 10px;
+}
+.playslite{
+    width: 150px;
+    margin-top: 15px;
+}
+.litep{
+    font-size: 14px;
+
+}
+.litelinks{
+    margin-top: 250px;
+}
