@@ -256,6 +256,7 @@ form .logfb{
 @media screen and (max-width:768px) {
     body{
         overflow-x: hidden;
+        position: absolute;
     }
     .left{
         opacity: 0;
