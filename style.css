@@ -87,7 +87,7 @@ form button{
     background-color: #0095f6;
     color: white;
     font-weight: bolder;
-    opacity: 0.5;
+    cursor: pointer;
 }
 .suf .subtn{
     opacity: 1;
